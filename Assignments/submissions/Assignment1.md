@@ -14,6 +14,40 @@
 
 2. What are the main stages of the data mining process? Briefly explain each stage.
 
+- Business Understanding: 
+
+> Akin to hypothesis development, we propose a question we wish for the data to solve. 
+> We design plans around data extraction and transformational steps which will help us solve this problem.
+
+- Data Understanding:
+
+> Here we develop knowledge about the data.
+> We use this step answer many questions, including the following:
+>> - How is/are our source(s) structured?
+>> - Is it relational?
+>> - How is the data obtained? 
+>> - Is it compressed?
+>> - Are the raw features qualitative or quantitative?
+>> - What data types are used and what should they be?
+>> - Is the data streamed or batched?
+>> - Is there a true primary key?
+>> - Does this data need preliminary cleaning (preprocessing)?
+>> 
+> This step often results in a feature store of some sort, which provides metadata around segments of the data itself.
+
+- Data Preparation:
+
+> Once the raw data is properly stored in a lake/warehouse, we must begin building a pipeline to push our data to our models.
+> This step includes actions like:
+> >- Filling or dropping null data
+> >- Transforming features to correct data types (string to int/bool).
+> >- Splitting features into sub-features.
+> >- Combing multiple features to develop new ones (PCA).
+> >- Normalization.
+> >- Outlier removal.
+
+
+
 3. In the context of data mining, what is the difference between predictive and descriptive tasks? Provide examples of each.
 
 4. Describe the concept of clustering and its significance in data mining. Give at least two real-world examples where clustering is applied.
