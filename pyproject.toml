@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "data-mining-2023"
+version = "0.1.0"
+description = "Data Mining Lectures and Assignments for Summer 23 \u001b[D"
+authors = ["pfenningpat <pat.pfenning@blastpoint.com>"]
+readme = "README.md"
+packages = [{include = "data_mining_2023"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+pandas = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

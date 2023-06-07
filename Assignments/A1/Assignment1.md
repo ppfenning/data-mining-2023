@@ -46,6 +46,15 @@
 > >- Normalization.
 > >- Outlier removal.
 
+- Modeling:
+
+> Here data scientists select features from our prepared data.
+> Parameters are optimized to fit each model uniquely.
+
+- Evaluation:
+
+> 
+
 
 
 3. In the context of data mining, what is the difference between predictive and descriptive tasks? Provide examples of each.
